@@ -1,0 +1,93 @@
+.headingtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf2ff;
+}
+.text{
+    padding: 25px;
+    padding-top: 50px;
+    font-size: 100px;
+    height: 85%;
+    width: 85%;
+}
+.approved{
+    display: flex;
+    height: 200px;
+    background-color: #edf2ff;
+    align-items: center;
+    position: relative;
+    
+}
+.approved button{
+    height: 50px;
+    width: 150px;
+    color: #00247a;
+    border: solid;
+    border-radius: 25px;
+    background-color: #edf2ff;
+    cursor: pointer;
+    margin-left: 110px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bullshit{
+    margin-left: 100px;
+}
+/* #top{
+    position: static;
+    height: 85%;
+    width: 85%;
+    margin-left: 300px;
+    align-content: center;
+    font-size: 80px;
+} */
+ .lower-section{
+display: flex;
+ }
+ .image{
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+ }
+ .image img{
+    width: 100%;
+    height: 100%;
+ }
+ .description{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 150px;
+  justify-content: center;
+ }
+ .row1{
+    font-size: 50px;
+    margin-bottom: 20px;
+ }
+ .row2{
+    font-size: 20px;
+    opacity: 0.6;
+ }
+ /* Add spacing to the bottom of the lower-section to keep it away from the footer */
+.lower-section {
+    margin-bottom: 30px; /* Adjust the margin value as needed */
+}
+
+/* Ensure the footer sticks to the bottom without overlapping other content */
+.footer {
+    background-color: #00247a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Add space above the footer */
+}
+
+
